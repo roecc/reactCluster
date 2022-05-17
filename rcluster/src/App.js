@@ -1,24 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
 
-import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
+import React from "react";
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
+import MarkerClusterGroup from "react-leaflet-markercluster";
 
 function App() {
   return (
-    <div className="App">
-      <MapContainer id='map' center={[51.505, -0.09]} zoom={13} scrollWheelZoom={true}>
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-        <Marker position={[51.505, -0.09]}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
-          
-        </Marker>
-      </MapContainer>
-    </div>
+    <MapContainer
+      className="markercluster-map"
+      center={[51.0, 19.0]}
+      zoom={4}
+      maxZoom={18}
+    >
+      <TileLayer
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      />
+
+          <Marker position={[49.8397, 24.0297]} />
+          <Marker position={[52.2297, 21.0122]} />
+          <Marker position={[51.5074, -0.0901]} />
+        
+        
+        
+        {/*
+        const markers = L.markerClusterGroup();
+        markers.addLayer(L.marker(getRandomLatLng(map)));
+        map.addLayer(markers);
+        */}
+    </MapContainer>
   );
 }
 
