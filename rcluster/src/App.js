@@ -7,7 +7,6 @@ import MarkerClusterGroup from "react-leaflet-markercluster";
 import { Icon, L } from "leaflet";
 
 import Sculptures from "./sculptures.json";
-import Sketchfab from "https://static.sketchfab.com/api/sketchfab-viewer-1.12.0.js"
 
 const mIcon = new Icon ({
   iconUrl: "https://vimune.com/assets/marker.svg",
@@ -15,40 +14,6 @@ const mIcon = new Icon ({
   className: "map-icon"
 }); 
 
-function setSketchfab () {
-  var iframe = document.getElementById( 'api-frame' );
-  var uid = 'b2f022d116834652b5a0b14f58bc8e23';
-
-  // By default, the latest version of the viewer API will be used.
-  var client = new Sketchfab( iframe );
-
-  // Alternatively, you can request a specific version.
-  // var client = new Sketchfab( '1.12.0', iframe );
-
-  client.init( uid, {
-    autostart: 1,
-
-    success: function onSuccess( api ){
-      api.start();
-      api.addEventListener( 'viewerready', function() {
-
-        // API is ready to use
-        // Insert your code here
-        console.log( 'Viewer is ready' );
-
-        api.setPostProcessing({
-            enable: false,
-            sharpenEnable: true
-        }, function() {
-            window.console.log('Post-processing filters set');
-        });
-      });
-    },
-    error: function onError() {
-        console.log( 'Viewer error' );
-    }
-  }); 
-}
 
 
 function App() {
