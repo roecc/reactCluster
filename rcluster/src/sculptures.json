@@ -1,0 +1,338 @@
+[
+    {
+      "name": "Schlossbruecke - 1/8",
+      "location": [
+        52.517537489850895,
+        13.398254730072333
+      ],
+      "sketchfabID": "b2f022d116834652b5a0b14f58bc8e23"
+    },
+    {
+      "name": "Schlossbruecke - 2/8",
+      "location": [
+        52.51764322256848,
+        13.398245864330173
+      ],
+      "sketchfabID": "856d23f858db45768b46e54da73514df"
+    },
+    {
+      "name": "Schlossbruecke - 3/8",
+      "location": [
+        52.51754843582203,
+        13.398469319033431
+      ],
+      "sketchfabID": "d51ad3b3348141d1957f82e5544fe62f"
+    },
+    {
+      "name": "Schlossbruecke - 4/8",
+      "location": [
+        52.517652707394966,
+        13.398459292964683
+      ],
+      "sketchfabID": "9439a8a22b6b421cac24cc24f44b7de1"
+    },
+    {
+      "name": "Schlossbruecke - 5/8",
+      "location": [
+        52.51755907328436,
+        13.398651251223031
+      ],
+      "sketchfabID": "0781cde06b654cf2bdfb7b301d4d0d07"
+    },
+    {
+      "name": "Schlossbruecke - 6/8",
+      "location": [
+        52.51766516401343,
+        13.39866734471485
+      ],
+      "sketchfabID": "a8b9359a4770470d947b271fceb8336e"
+    },
+    {
+      "name": "Schlossbruecke - 7/8",
+      "location": [
+        52.517573762376294,
+        13.39885778043727
+      ],
+      "sketchfabID": "543acad290da48599f1513da1cee8b32"
+    },
+    {
+      "name": "Schlossbruecke - 8/8",
+      "location": [
+        52.51767658884923,
+        13.398839005756894
+      ],
+      "sketchfabID": "9d92da3c47ba4650b5223c863b216721"
+    },
+    {
+      "name": "Jahn Denkmal",
+      "location": [
+        52.48597271328849,
+        13.419696539640428
+      ],
+      "sketchfabID": "797415d98a4d419c8fe257137fb5df39"
+    },
+    {
+      "name": "Truemmerfrau",
+      "location": [
+        52.48735368591596,
+        13.413889557123186
+      ],
+      "sketchfabID": "62b58e6bf5a74508b7acdc8b7f676f4b"
+    },
+    {
+      "name": "August von Gneisenau",
+      "location": [
+        52.516504869796044,
+        13.395531177520754
+      ],
+      "sketchfabID": "c61ea08955364fac860142ff55cc9354"
+    },
+    {
+      "name": "August von Gneisenau - Composite",
+      "location": [
+        52.516504869796044,
+        13.395531177520754
+      ],
+      "sketchfabID": "0de7e70905d34e0582e5c9386485004e"
+    },
+    {
+      "name": "Allegorie Fischfang",
+      "location": [
+        52.49750344324148,
+        13.392253518104555
+      ],
+      "sketchfabID": "960083319b954823b1d5e8c85749189c"
+    },
+    {
+      "name": "Allegorie Flussschifffahrt",
+      "location": [
+        52.49747568362482,
+        13.39185118675232
+      ],
+      "sketchfabID": "78b706cdad064d60b05b7a7da8719b8a"
+    },
+    {
+      "name": "Friede",
+      "location": [
+        52.49858442174345,
+        13.39211940765381
+      ],
+      "sketchfabID": "3a750d8930b74ea4a98478b7f075d5ac"
+    },
+    {
+      "name": "Klio",
+      "location": [
+        52.49861054778313,
+        13.391690254211428
+      ],
+      "sketchfabID": "721f9253f40e40d983309faa178ad803"
+    },
+    {
+      "name": "Berliner Dom - 1",
+      "location": [
+        52.51880133254509,
+        13.400733321905138
+      ],
+      "sketchfabID": "8f85636f9caf491b8e425659e93dcaa4"
+    },
+    {
+      "name": "Berliner Dom - 2",
+      "location": [
+        52.51900045159175,
+        13.400513380765917
+      ],
+      "sketchfabID": "39c333993e49421a821b7e90110132b0"
+    },
+    {
+      "name": "Sophokles - Staatsoper unter den Linden",
+      "location": [
+        52.51710225545201,
+        13.394541442394258
+      ],
+      "sketchfabID": "229cee07f4ce4cdfa4b72d52ce53eee5"
+    },
+    {
+      "name": "Aristophanes - Staatsoper unter den Linden",
+      "location": [
+        52.51711368078157,
+        13.39462459087372
+      ],
+      "sketchfabID": "e1050eaaf4b64a6d927a758fd1606166"
+    },
+    {
+      "name": "Menander - Staatsoper unter den Linden",
+      "location": [
+        52.51712020954001,
+        13.394721150398256
+      ],
+      "sketchfabID": "090df43b5c734e99a1e141d438d6d51c"
+    },
+    {
+      "name": "Euripides - Staatsoper unter den Linden",
+      "location": [
+        52.51712510610819,
+        13.394785523414614
+      ],
+      "sketchfabID": "eab52596a9244a67a03879fbca54df86"
+    },
+    {
+      "name": "Relief 1/4 - Staatsoper unter den Linden",
+      "location": [
+        52.51710225545201,
+        13.394541442394258
+      ],
+      "sketchfabID": "ee2ec876767c431ab86a1350d0e63c8a"
+    },
+    {
+      "name": "Relief 2/4 - Staatsoper unter den Linden",
+      "location": [
+        52.51711368078157,
+        13.39462459087372
+      ],
+      "sketchfabID": "0a65c2aa49c74a8fa61a77bffabb4e0f"
+    },
+    {
+      "name": "Relief 3/4 - Staatsoper unter den Linden",
+      "location": [
+        52.51712020954001,
+        13.394721150398256
+      ],
+      "sketchfabID": "0e6a440a54104dcd83b569498ad759c9"
+    },
+    {
+      "name": "Relief 4/4 - Staatsoper unter den Linden",
+      "location": [
+        52.51712510610819,
+        13.394785523414614
+      ],
+      "sketchfabID": "013d9dea72c94ce98a345413c0aa17f4"
+    },
+    {
+      "name": "Balanceakt",
+      "location": [
+        52.50804593132709,
+        13.398672044277193
+      ],
+      "sketchfabID": "83ac6cc73f944ea8b21b3ce14f1276b0"
+    },
+    {
+      "name": "Vogeltraenke",
+      "location": [
+        52.50550238135967,
+        13.402848243713379
+      ],
+      "sketchfabID": "26b12f3624f342a3a55534c39c291c98"
+    },
+    {
+      "name": "Main Entrance 1/2 - Humboldt University",
+      "location": [
+        52.51760415105653,
+        13.393562436103823
+      ],
+      "sketchfabID": "4a90c5b4519b475db65490ffd582f123"
+    },
+    {
+      "name": "Main Entrance 2/2 - Humboldt University",
+      "location": [
+        52.51763761055967,
+        13.393986225128176
+      ],
+      "sketchfabID": "07d1126bc0bc45a6a01048d5402bdd2c"
+    },
+    {
+      "name": "Drei Mädchen und ein Knabe",
+      "location": [
+        52.52006866090639,
+        13.401578217744827
+      ],
+      "sketchfabID": "d1d0512df131486aa88c7addd6a26733"
+    },
+    {
+      "name": "Hegel Memorial",
+      "location": [
+        52.51934931577861,
+        13.393479287624361
+      ],
+      "sketchfabID": "8a0cd0bcbfe9464fb6fee7579423d864"
+    },
+    {
+      "name": "Loewengruppe",
+      "location": [
+        52.51486283349881,
+        13.375507146120073
+      ],
+      "sketchfabID": "b03a8378dc64428bb6faf9d8fdec9806"
+    },
+    {
+      "name": "Soviet War Memorial - Stylized",
+      "location": [
+        52.48612543090347,
+        13.471932560205461
+      ],
+      "sketchfabID": "c101f19c5ba046d0a66f0cbe00391798"
+    },
+    {
+      "name": "Fasch Memorial",
+      "location": [
+        52.518706669075264,
+        13.395158350467684
+      ],
+      "sketchfabID": "1eee3e1154d342c7b6bcc02226189d27"
+    },
+    {
+      "name": "Loewenkaempfer - Stylized",
+      "location": [
+        52.520643965322456,
+        13.397752046585085
+      ],
+      "sketchfabID": "ce9a4a4dfe16434b9bcbb1a5365d6612"
+    },
+    {
+      "name": "Baerenbrunnen",
+      "location": [
+        52.51562346629126,
+        13.398144990205767
+      ],
+      "sketchfabID": "295d89466be644668691e45ca58dd385"
+    },
+    {
+      "name": "Bear",
+      "location": [
+        52.514435175802944,
+        13.36876541376114
+      ],
+      "sketchfabID": "6e8bef81e4b24ac69951756835ba0fe7"
+    },
+    {
+      "name": "Ox",
+      "location": [
+        52.51435682585027,
+        13.36904972791672
+      ],
+      "sketchfabID": "24d2fa58691c4d9aa45a9247107032f9"
+    },
+    {
+      "name": "Stag",
+      "location": [
+        52.51434866438885,
+        13.369312584400179
+      ],
+      "sketchfabID": "d1e20aa388bd4a0880f758c7818b1e50"
+    },
+    {
+      "name": "Loewenkaempfer",
+      "location": [
+        52.51932524219855,
+        13.399330526590349
+      ],
+      "sketchfabID": "0b58a09348f34b999ae3670cf15018fe"
+    },
+    {
+      "name": "Loewenkaempfer 2",
+      "location": [
+        52.519075529030815,
+        13.398714959621431
+      ],
+      "sketchfabID": "0cc6175d4ac24da89316e905892e2848"
+    }
+]
