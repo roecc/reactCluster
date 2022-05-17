@@ -122,8 +122,8 @@ body {
 
 /* POPUP */
 .leaflet-popup {
-  width: 400px;
-  height: 200px;
+  width: 800px;
+  height: 400px;
 }
 
 .leaflet-popup-content-wrapper {
@@ -138,6 +138,31 @@ body {
   backdrop-filter: blur(5px);
 }
 
+.leaflet-popup-content {
+    width:100%;
+    height:100%;
+
+    /*margin: auto;*/
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-bottom: -2px;
+    /*margin-bottom: 16px;*/
+
+    display: flex;
+}
+
 .leaflet-popup-tip-container {
   height: 0px;
+}
+
+#api-frame {
+  filter: contrast(var(--uncontrast));
+
+  width: 400px;
+  height: 400px;
+
+  margin: 0px 8px 0px 0px;
+  padding: 0px;
+
+  border-radius: 8px 0px 0px 8px;
 }
