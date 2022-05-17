@@ -1,15 +1,66 @@
+:root {
+  --scale: .5;
+  --primary-color: #313238;
+  --secondary-color: #E59400;
+  --reverse-secondary: #00495E;
+  --complimentary-secondary: #4500e5;
+  --secondary-rgb: rgb(229, 148, 0);
+  --tertiary-color: #9999A1;
+
+  --c1: #313238;
+  --c2: #F96900;
+  --c3: #a9b4c2;
+  --c4: #eef1ef;
+  --c5: #bb0a21;
+
+  --contrast: .7;
+  --uncontrast: 1.4;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body {
+  margin: 0;
+}
+
+.logo-container {
+  margin: 24px;
+  height: 120px;
+  width: 340px;
+  float: left;
+
+    
+}
+
+.header-blur {
+  background-color: rgba(0, 0, 0, 0.5);
+
+  /*background-image: linear-gradient(rgba(0,0,0,0), rgba(229, 148, 0,.4));*/
+
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+}
+
+.logo {
+  height: 80px;
+  margin: 8px;
+}
+
+.sub-t {
+  color: #9999A1;
+  margin-left: 18px;
+  font-size: 27px;
+  font-style: bold;
+  margin-top: -21px;
+
+  padding-bottom: 8px;
 }
 
 .leaflet-container {
@@ -18,9 +69,50 @@ code {
   width: 100%;
   height: 100vh;
 
+  filter: contrast(.7);
+
   background-color: white;
 }
 
 .markercluster-map {
   height: 100vh;
+  z-index: -1;
+}
+
+.box-shadow {
+  width: 100%;
+  height: 100vh;
+
+  box-shadow: inset 0 0 126px 5px rgba(0, 0, 0, 0.7);
+  background-color: transparent;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+/*marker cluster style*/
+.marker-cluster-small {
+  background-color: rgba(148, 148, 148, 0.6);
+}
+
+.marker-cluster-small div {
+  background-color: rgba(224, 224, 224, 0.6);
+}
+
+.marker-cluster-small:hover {
+  background-color: rgba(211, 211, 211, 0.8);
+}
+
+.map-icon {
+  filter: contrast(var(--uncontrast));
+}
+
+.map-icon:hover {
+  filter: contrast(0);
 }
