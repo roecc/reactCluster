@@ -15,7 +15,6 @@ const mIcon = new Icon ({
 }); 
 
 
-
 function App() {
   return (
     <div id="site-container">
@@ -44,8 +43,6 @@ function App() {
         <MarkerClusterGroup
           disableClusteringAtZoom={17}
         >
-          <Marker icon={mIcon} position={[52.2297, 21.0122]} />
-          
           {Sculptures.map(sculpture => (
             <Marker 
               icon={mIcon}
@@ -58,6 +55,15 @@ function App() {
                 <h2>
                   {sculpture.name}
                 </h2>
+                
+                {/*
+                <button onClick={function MyPing(){
+                  let _obj = Sculptures.find(_sculpt => _sculpt.id === "ps21032801");
+                  alert(_obj.name);
+                }}>
+                </button>
+                */}
+
               </Popup>
 
             </Marker>
